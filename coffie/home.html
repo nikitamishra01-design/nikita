@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Coffee Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color:#5C4033;
+      overflow: hidden;
+    }
+
+    .navbar {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbar a {
+      color: #fff;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    .section {
+      background: #5C4033;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .section .left {
+      max-width: 50%;
+      margin-bottom: 150px;
+      padding: 20px;
+    }
+
+    .section h1 {
+      margin-bottom: 10px;
+    }
+
+    .section button {
+      background: #D2B48C;
+      color: #5C4033;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .section img {
+      width: 200px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .section .left,
+      .section .right {
+        max-width: 100%;
+        
+      }
+
+      .section img {
+        margin-top: 20px;
+      }
+    }
+    button:hover{
+        background-color: white;
+    }
+    .logo{
+        font-size: 30px;
+    }
+
+    a:hover{
+        color: #D2B48C;
+    }
+    .left h1{
+        margin-top: 100px;
+    }
+    button{
+        margin-left: 50px;
+    }
+
+    .right img{
+        height: 200px;
+        width:  300px;
+    }
+    </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Coffee</div>
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- Coffee Section -->
+  <div class="section">
+    <div class="left">
+      <h1>Enjoy Your Coffee</h1>
+      <p>Freshly brewed, rich in flavor. Start your day right.</p>
+      <button>Learn More</button>
+    </div>
+    <div class="right">
+      
+        <img src="coffee.jfif" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
