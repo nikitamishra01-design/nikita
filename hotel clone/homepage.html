@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Hotel Luxe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+    }
+
+    body {
+      background: url('https://source.unsplash.com/1600x900/?luxury-hotel,interior') no-repeat center center/cover;
+    }
+
+    header {
+      background: rgba(25, 25, 25, 0.8);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #ffcc70;
+    }
+
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc70;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0 20px;
+      backdrop-filter: blur(2px);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #ffcc70;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .hero button {
+      padding: 14px 28px;
+      font-size: 1rem;
+      border: none;
+      background-color: #ffcc70;
+      color: #000;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-weight: 600;
+    }
+
+    .hero button:hover {
+      background-color: #e6b94a;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      nav a {
+        margin-left: 15px;
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Hotel Luxe</div>
+    <nav>
+      
+      <a href="about.html">About</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Hotel Luxe</h1>
+    <p>Where comfort meets class. Your luxury escape awaits.</p>
+    <button onclick="location.href='booking.html'">Book Now</button>
+  </section>
+
+</body>
+</html>

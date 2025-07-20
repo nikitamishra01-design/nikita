@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurred Background with Transparent Boxes</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        /* Blurred background image */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            background-image: url('room.jfif');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px);
+            z-index: -1;
+        }
+
+        /* Foreground content container */
+        .content {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Transparent boxes */
+        .box {
+            width: 200px;
+            height: 250px;
+         
+         
+             /* Transparent white */
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            margin: 8px;
+            
+           
+            transition: transform 0.3s ease;
+        }
+        .box:hover{
+            transform: scale(1.1);
+        }
+
+        .box{
+            font-size: 25px;
+            font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 1.4;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <!-- Background blurred image -->
+    <div class="background"></div>
+
+    <!-- Foreground content with transparent boxes -->
+    <div class="content">
+        <div class="box">This is my beautiful hotel managment website</div>
+        <div class="box">5-star luxury & city views Perfect for business stays</div>
+        <div class="box">Beachfront peace & comfort</div>
+        
+    </div>
+
+    <button>book...</button>
+
+</body>
+</html>
