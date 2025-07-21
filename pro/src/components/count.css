@@ -1,0 +1,45 @@
+body{
+   
+   
+    height:100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    
+   
+   
+    
+  }
+  button{
+    color:black;
+    font-size: 15px;
+   
+    
+    
+  }
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
