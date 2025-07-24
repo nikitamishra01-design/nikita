@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Nikita Mishra</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .contact-container p {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    form button {
+      background-color: #f39c12;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background-color: #e67e22;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 8px 12px;
+      color: #0a66c2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .privacy-note {
+      font-size: 12px;
+      color: gray;
+      margin-top: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h2>Contact Nikita Mishra</h2>
+    <p>I’d love to hear from you! Fill out the form below.</p>
+
+    <form onsubmit="alert('Thank you! This is a secure demo. No data is stored.'); return false;">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="links">
+      <p>
+        Connect with me:
+        <br />
+        <a href="https://www.linkedin.com/in/nikita-mishra-0881b5375" target="_blank">LinkedIn</a>
+        |
+        <a href="https://github.com/nikitamishra01-design" target="_blank">GitHub</a>
+      </p>
+    </div>
+
+    <p class="privacy-note">🔒 This form is safe. No personal data is collected or stored.</p>
+    <a href="./index.html" style="text-decoration:none;">
+  <button style="padding:8px 16px; background:#f39c12; color:#fff; border:none; border-radius:4px;">
+    come back to home
+  </button>
+</a>
+
+  </div>
+
+</body>
+</html>
