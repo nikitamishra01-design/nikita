@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Hotel Paradise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f8f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* Header styling */
+    header {
+      background: orangered;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    nav {
+      margin-top: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover,
+    nav a.active {
+      border-bottom: 2px solid #00cec9;
+    }
+
+    /* Hero section */
+    .about-hero {
+      background: url('https://images.unsplash.com/photo-1501117716987-c8e96defa3c2?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      padding: 80px 20px;
+      text-align: center;
+      color: black;
+    }
+
+    .about-hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .about-hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* About section */
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 60px 0;
+      align-items: center;
+    }
+
+    .about-text {
+      flex: 1 1 50%;
+    }
+
+    .about-text h3 {
+      font-size: 24px;
+      margin: 20px 0 10px;
+      color: #2d3436;
+    }
+
+    .about-text p {
+      margin-bottom: 15px;
+    }
+
+    .about-text ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .about-text ul li {
+      margin: 8px 0;
+      font-weight: 500;
+    }
+
+    .about-image {
+      flex: 1 1 45%;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    /* Footer styling */
+    footer {
+      background: #2d3436;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+      }
+
+      .about-hero h2 {
+        font-size: 30px;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Hotel Paradise</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="about-hero">
+    <div class="container">
+      <h2>About Hotel Paradise</h2>
+      <p>Welcome to Hotel Paradise – your perfect stay destination for comfort, luxury, and hospitality.</p>
+    </div>
+  </section>
+
+  <!-- Main About Content -->
+  <section class="about-content container">
+    <div class="about-text">
+      <h3>Who We Are</h3>
+      <p>Located in the heart of the city, Hotel Paradise is known for its peaceful ambiance, exceptional service, and top-class amenities. Whether you're here for business or leisure, we ensure you feel at home.</p>
+
+      <h3>Our Mission</h3>
+      <p>To provide memorable and luxurious stays that combine comfort, convenience, and care – always exceeding your expectations.</p>
+
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>✅ Prime location</li>
+        <li>✅ Modern and clean rooms</li>
+        <li>✅ Friendly 24/7 support</li>
+        <li>✅ Free Wi-Fi & delicious breakfast</li>
+      </ul>
+    </div>
+
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1559589689-577aabd1b82e?auto=format&fit=crop&w=700&q=80" alt="Hotel Interior">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hotel Paradise. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

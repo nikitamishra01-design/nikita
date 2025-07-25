@@ -1,0 +1,121 @@
+/* General Styles */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #ff6347;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Page */
+.home {
+    background-color: #fff5e1;
+    padding: 50px;
+    text-align: center;
+}
+
+.home h1 {
+    color: #ff6347;
+    font-size: 36px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Menu Page */
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.food-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+}
+
+.food-item h3 {
+    color: #ff6347;
+}
+
+/* Food Detail Page */
+.food-detail {
+    padding: 50px;
+    text-align: center;
+}
+
+.food-detail h2 {
+    color: #ff6347;
+}
+
+/* Contact Page */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact form {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+button{
+    border-radius:10px;
+}
