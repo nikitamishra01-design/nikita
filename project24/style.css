@@ -1,1 +1,239 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
 
+body {
+  line-height: 1.6;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  padding: 100px 20px 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4c4c;
+}
+
+/* Features Section */
+.features {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e9ecef;
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* About Section */
+.about {
+  background-color: #f0f4f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial span {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e0ecff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4b6cb7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3a54a0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+  .testimonial-cards {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 70px 15px 60px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  input,
+  textarea,
+  button[type="submit"] {
+    font-size: 0.95rem;
+  }
+}
