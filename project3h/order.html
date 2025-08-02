@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Your Favourite Veg Food</title>
+  <link rel="stylesheet" href="./order.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Order Veg Food Items</h1>
+    <form action="#" method="POST">
+      <!-- Food Item Selection -->
+      <label for="food-item">Choose Food Item:</label><br>
+      <select id="food-item" name="food-item" required>
+        <option value="malai-kofta">Malai Kofta</option>
+        <option value="paneer-butter-masala">Paneer Butter Masala</option>
+        <option value="chawal">Chawal (Rice)</option>
+        <option value="roti">Roti</option>
+        <option value="masala-dosa">Masala Dosa</option>
+        <option value="dal-makhani">Dal Makhani</option>
+        <option value="aloo-gobhi">Aloo Gobhi</option>
+        <option value="kadhai-paneer">Kadhai Paneer</option>
+        <option value="chole-bhature">Chole Bhature</option>
+        <option value="bhindi-masala">Bhindi Masala</option>
+        <option value="gobi-masala">Gobi Masala</option>
+        <option value="tandoori-roti">Tandoori Roti</option>
+        <option value="jeera-rice">Jeera Rice</option>
+        <option value="veg-biryani">Veg Biryani</option>
+        <option value="aloo-methi">Aloo Methi</option>
+        <option value="palak-paneer">Palak Paneer</option>
+        <option value="shahi-paneer">Shahi Paneer</option>
+        <option value="veg-pulao">Veg Pulao</option>
+        <option value="dhokla">Dhokla</option>
+        <option value="kachaudi">Kachaudi</option>
+        <option value="pav-bhaji">Pav Bhaji</option>
+        <option value="samosa">Samosa</option>
+        <option value="kadhi-pakora">Kadhi Pakora</option>
+        <option value="rajma-rice">Rajma Rice</option>
+        <option value="baingan-bharta">Baingan Bharta</option>
+      </select><br><br>
+
+      <!-- User Details -->
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="address">Delivery Address:</label><br>
+      <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+      <!-- Quantity -->
+      <label for="quantity">Quantity:</label><br>
+      <input type="number" id="quantity" name="quantity" value="1" min="1"><br><br>
+      
+      
+      <!-- Place Order Button -->
+      
+      <a href="./successful.html"><button type="submit" class="order-btn">Place Order</button></a>
+    </form>
+  </div>
+</body>
+</html>

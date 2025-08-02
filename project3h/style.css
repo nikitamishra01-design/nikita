@@ -1,0 +1,102 @@
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #fdb813;
+  color: #222;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #007acc, #0096c7);
+  color: white;
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+.home-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.home h1 span {
+  color: #fdb813;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .home h1 {
+    font-size: 2.2rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+}
