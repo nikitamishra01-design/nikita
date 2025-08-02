@@ -1,5 +1,5 @@
 
-/* Base Reset */
+/* style.css */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,17 +7,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Styling */
 body {
   background: linear-gradient(to right, #ffecd2, #fcb69f);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
 }
 
-/* Form Container */
 .form-container {
   background-color: #fff;
   padding: 30px 40px;
@@ -27,14 +24,12 @@ body {
   max-width: 500px;
 }
 
-/* Heading */
 h2 {
   text-align: center;
   color: #333;
   margin-bottom: 25px;
 }
 
-/* Input Fields */
 .form-group {
   margin-bottom: 20px;
 }
@@ -62,7 +57,6 @@ select:focus {
   box-shadow: 0 0 5px rgba(255, 126, 95, 0.4);
 }
 
-/* Button */
 button {
   width: 100%;
   padding: 12px;
@@ -84,27 +78,4 @@ button a {
   color: white;
   text-decoration: none;
   display: block;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .form-container {
-    padding: 20px;
-    margin: 0 10px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  input,
-  select,
-  button {
-    font-size: 15px;
-    padding: 10px;
-  }
-
-  label {
-    font-size: 14px;
-  }
 }
