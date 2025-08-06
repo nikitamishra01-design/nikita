@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - WanderWorld</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fffaf0;
+      color: #333;
+    }
+
+    /* Navbar */
+    .header {
+      background-color: #222;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    .navbar li {
+      margin: 0 10px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #e84393;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e84393;
+    }
+
+    /* Contact Section */
+    .features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #e84393;
+    }
+
+    .features p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .contact-section {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .contact-section form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .contact-section button {
+      padding: 12px;
+      background-color: #ff6600;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-section button:hover {
+      background-color: #cc5200;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar li {
+        margin: 5px 0;
+      }
+
+      .logo {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <div class="navbar">
+      <ul class="nav-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="logo">WanderWorld</div>
+      <ul class="nav-right">
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="features">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you!</p>
+
+    <div class="contact-section">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 WanderWorld Travels | Designed by Nikita</p>
+  </footer>
+
+</body>
+</html>

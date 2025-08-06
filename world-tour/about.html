@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - WanderWorld</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fffaf0;
+      color: #333;
+    }
+
+    /* Navbar */
+    .header {
+      background-color: #222;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .navbar li {
+      margin: 5px 10px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #e84393;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #e84393;
+      margin: 10px 0;
+    }
+
+    /* About Section */
+    .features {
+      padding: 40px 20px;
+      background-color: #fffaf0;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #e84393;
+      font-weight: bold;
+    }
+
+    .features p {
+      font-size: 16px;
+      color: #444;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      position: fixed;
+      width:100%;
+      bottom:0px;
+    }
+
+    /* Media Query for small devices */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar li {
+        margin: 5px 0;
+      }
+
+      .navbar .logo {
+        align-self: center;
+      }
+
+      .features h2 {
+        font-size: 24px;
+      }
+
+      .features p {
+        font-size: 15px;
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <div class="navbar">
+      <ul class="nav-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+      <div class="logo">WanderWorld</div>
+      <ul class="nav-right">
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="features">
+    <h2>About Us</h2>
+    <p>
+      <strong>WanderWorld</strong> is your gateway to unforgettable adventures and experiences. Founded with a passion for travel and a mission to make exploring the world easy and exciting, we bring you curated tour packages, expert guides, and a hassle-free booking experience.
+      <br><br>
+      Whether you're dreaming of mountain treks, beach getaways, or cultural expeditions — our team is here to turn your travel dreams into reality.
+      <br><br>
+      At WanderWorld, we believe that travel is more than a destination — it's a way of life.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 WanderWorld Travels | Designed by Nikita</p>
+  </footer>
+
+</body>
+</html>
