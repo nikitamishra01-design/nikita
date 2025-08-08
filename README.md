@@ -10,20 +10,21 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 ### 🔷 HTML/CSS/JS Projects
 
 - 👉 [Amazon Clone]()
+- - 👉 [My portfolio](https://nikku1213.netlify.app/)
 - - 👉 [World tour](https://world1211.netlify.app/)
-- 👉 [Basic Website Clone](https://your-netlify-link.netlify.app)
+- 👉 [hotel Website Clone](https://hotel1212.netlify.app/)
 - 👉 [Coffee Website](https://your-netlify-link.netlify.app)
-- 👉 [Currency Converter](https://your-netlify-link.netlify.app)
-- 👉 [Food Ordering Website](https://your-netlify-link.netlify.app)
-- 👉 [Hotel Paradise](https://your-netlify-link.netlify.app)
-- 👉 [World Tour Website](https://your-netlify-link.netlify.app)
-- 👉 [Landing Page](https://your-netlify-link.netlify.app)
+- 👉 [Currency Converter](https://nikita1111.netlify.app/)
+- 👉 [Food Ordering Website]()
+- 👉 [skills](https://nikku121212.netlify.app/)
+ 👉 [weather app](https://weath12.netlify.app/)-
+- 👉 [nova Clone](https://nikku1717.netlify.app/)
 
 ### ⚛️ React Projects
 
 -  [BeautyPro - React E-Commerce](https://your-netlify-link.netlify.app)
 -  [React Counter App (Pro)](https://your-netlify-link.netlify.app)
--  [New React App](https://your-netlify-link.netlify.app)
+
 
 >  _Replace each `https://your-netlify-link.netlify.app` with your actual Netlify deployed links._
 
