@@ -9,7 +9,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 ### 🔷 HTML/CSS/JS Projects
 
-- 👉 [Amazon Clone](https://amazon121.netlify.app/)
+- 👉 [Amazon Clone](https://amazone121.netlify.app/)
 - - 👉 [My portfolio](https://nikku1213.netlify.app/)
 - - 👉 [World tour](https://world1211.netlify.app/)
 - 👉 [hotel Website Clone](https://hotel1212.netlify.app/)
