@@ -1,0 +1,60 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.reveal-box {
+  position: relative;
+  background: #1e293b; /* Front color */
+  color: white;
+  width: 320px;
+  padding: 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.reveal-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Hidden background */
+  z-index: -1;
+  transform: scale(1.2);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.reveal-box:hover::after {
+  opacity: 1; /* Show hidden background */
+}
+
+.reveal-box:hover {
+  transform: translateY(-8px);
+}
+
+.reveal-box h2 {
+  margin-bottom: 10px;
+}
+
+.reveal-box p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

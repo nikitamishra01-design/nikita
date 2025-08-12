@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+/* Outer Glow Background */
+.container::before {
+  content: "";
+  position: absolute;
+  inset: -25px;
+  background: linear-gradient(135deg, #ff7eb3, #42e695, #3bb2b8);
+  background-size: 300% 300%;
+  border-radius: 25px;
+  filter: blur(35px);
+  opacity: 0;
+  transition: opacity 0.5s ease, background-position 6s ease infinite;
+  animation: gradientMove 6s ease infinite;
+  z-index: 0;
+}
+
+/* Box */
+.best-box {
+  position: relative;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.best-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.best-box p {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.best-box a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #42e695, #3bb2b8);
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.best-box a:hover {
+  background: linear-gradient(135deg, #3bb2b8, #42e695);
+}
+
+/* Hover Effects */
+.container:hover::before {
+  opacity: 1;
+}
+
+.container:hover .best-box {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Moving Gradient Animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  
+
+}
