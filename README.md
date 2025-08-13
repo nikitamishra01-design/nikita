@@ -42,7 +42,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 - Git & GitHub  
 - Netlify (for deployment)
 
----
+--
 
 ## 📁 Folder Structure
 
