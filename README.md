@@ -35,7 +35,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 ## 🛠️ Technologies Used
 
 - HTML5  
-- CSS3  
+- CSS  
 - JavaScript  
 - React JS  
 - Responsive Web Design  
