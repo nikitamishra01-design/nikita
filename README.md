@@ -30,7 +30,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 >  _Replace each `https://your-netlify-link.netlify.app` with your actual Netlify deployed links._
 
----
+
 
 ## 🛠️ Technologies Used
 
