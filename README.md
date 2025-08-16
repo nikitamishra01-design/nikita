@@ -46,8 +46,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 ## 📁 Folder Structure
 
 Each project is in its own folder within this repository. Just explore the folders to find the code and assets for each one
-
-##  Contact
+Contact
 
  **Nikita Mishra**  
 📧 [nikitamishra01-design@gmail.com](mailto:nikitamishra01-design@gmail.com)  
