@@ -35,7 +35,8 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 - HTML5  
 - CSS  
-- JavaScript  
+- JavaScript
+- node js
 - React JS  
 - Responsive Web Design  
 - Git & GitHub  
