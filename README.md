@@ -7,7 +7,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 ## 🚀 Live Projects
 
 ### 🔷 HTML/CSS/JS Projects
-- 👉 [React beauty project](https://starlit-haupia-352aa7.netlify.app/)
+- 👉 [React beauty project](https://beautyapp1212.netlify.app/)
 - 👉 [Amazon mini page](https://amazone121.netlify.app/)
 - - 👉 [My portfolio](https://nikku1213.netlify.app/)
 - - 👉 [World tour](https://world1211.netlify.app/)
