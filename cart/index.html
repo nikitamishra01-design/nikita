@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Shop — Add to Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav">
+    <!-- Brand -->
+    <div class="brand">
+      <div class="logo"></div>
+      <span>👜 Simple Shop</span>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search">
+      <input id="search" type="text" placeholder="Search products...">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+        <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- Cart Button -->
+    <button class="cart-btn" id="openCart">
+      <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Cart" width="28">
+      <span>Cart</span>
+      <span class="badge" id="cartCount">0</span>
+    </button>
+  </header>
+
+  <!-- Main Section -->
+  <main class="wrap">
+    <h2>Products</h2>
+    <div id="products" class="grid"></div>
+  </main>
+
+  <!-- Cart Drawer -->
+  <aside class="drawer" id="drawer">
+    <!-- Drawer Header -->
+    <div class="drawer-head">
+      <strong>Your Cart</strong>
+      <button class="btn" id="closeCart">Close</button>
+    </div>
+
+    <!-- Drawer Body -->
+    <div class="drawer-body" id="cartList"></div>
+
+    <!-- Drawer Footer -->
+    <div class="drawer-foot">
+      <div class="line">
+        <span class="muted">Items</span>
+        <strong id="itemsCount">0</strong>
+      </div>
+      <div class="line">
+        <span class="muted">Subtotal</span>
+        <strong id="subtotal">₹0.00</strong>
+      </div>
+      <button class="btn success" id="checkoutBtn">Checkout</button>
+      <button class="btn danger" id="clearBtn">Clear Cart</button>
+    </div>
+  </aside>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">Added to cart</div>
+
+  <!-- Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
