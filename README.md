@@ -57,7 +57,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 Each project is in its own folder within this repository. Just explore the folders to find the code and assets for each one
 Contact
 
- **Nikita Mishra**  
+Nikita Mishra
 📧 [nikitamishra01-design@gmail.com](mailto:nikitamishra01-design@gmail.com)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/nikita-mishra-0881b5375)
 
