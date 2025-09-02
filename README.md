@@ -11,10 +11,10 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 - - 👉 [React beauty project](https://beautyapp12.netlify.app/)
 - 👉 [React beauty project](https://beautyapp121212.netlify.app/)
-- - - 👉 [Register-user-information](https://register-user-info.netlify.app/)
-- - 👉 [slider project for laptop ](https://slider121212.netlify.app/)
-  - - - 👉 [slider project for alll screen ](https://slider-project11.netlify.app/)
-      - - - 👉 [Add-product-mannually]()
+ - - 👉 [Register-user-information](https://register-user-info.netlify.app/)
+- - 👉 [slider project for laptop ](https://slider121212.netlify.app/)  - -
+ - - 👉 [slider project for alll screen ]()
+  - - 👉 [Add-product-mannually](https://add-product12.netlify.app/)
 
 
 - 👉 [Amazon mini page](https://amazone121.netlify.app/)
