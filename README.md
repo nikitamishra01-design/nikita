@@ -6,7 +6,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 ##  Live Projects
 
-### 🔷 HTML/CSS/JS Projects
+### 🔷  React js / HTML /CSS  / JS Projects
 
 
 - - 👉 [React beauty project](https://beautyapp12.netlify.app/)
