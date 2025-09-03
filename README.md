@@ -39,7 +39,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 -  [React Counter App (Pro)](https://your-netlify-link.netlify.app)
 
 
- _Replace each `https://your-netlify-link.netlify.app` with your actual Netlify deployed links._
+ Replace each `https://your-netlify-link.netlify.app` with your actual Netlify deployed links._
 
 
 
