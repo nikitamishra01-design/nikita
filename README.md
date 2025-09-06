@@ -8,7 +8,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 ### 🔷  React js / HTML /CSS  / JS Projects
 
-- - 👉 [responsive beauty app clone ](https://beautyapp12.netlify.app/)
+- - 👉 [responsive beauty app clone ]()
 - - 👉 [React beauty project](https://beautyapp12.netlify.app/)
 - 👉 [React beauty project](https://beautyapp121212.netlify.app/)
  - - 👉 [Register-user-information](https://register-user-info.netlify.app/)
