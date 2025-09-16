@@ -45,7 +45,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 
 
-# 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - HTML5  
 - CSS  
