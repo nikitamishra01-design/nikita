@@ -3,7 +3,7 @@
 Welcome to my GitHub repository! This is a collection of responsive and creative web projects built by **Nikita Mishra** — an aspiring front-end web developer passionate about clean UI and user experience.
 
 
-##  Live Projects
+# Live Projects
 
 ###   React js / HTML /CSS  / JS Projects
 - 👉 [responsive beauty app clone ](https://starlit-beignet-438981.netlify.app/)
