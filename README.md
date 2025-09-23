@@ -15,7 +15,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
  - - 👉 [slider project for alll screen ](https://slider-project11.netlify.app/)
   - - 👉 [Add-product-mannually](https://add-product12.netlify.app/)
     - - 👉 [add product to the cart](https://cart121212.netlify.app/)
-
+- 👉 [related products](https://related-products.netlify.app/)
 - 👉 [Amazon mini page](https://amazone121.netlify.app/)
 - - 👉 [My portfolio](https://nikku1213.netlify.app/)
  --👉 [World tour](https://world1211.netlify.app/)
