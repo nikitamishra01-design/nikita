@@ -32,7 +32,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
        
 
 
-### ⚛️ React Projects
+## ⚛️ React Projects
 
 -  [BeautyPro - React E-Commerce](https://your-netlify-link.netlify.app)
 -  [React Counter App (Pro)](https://your-netlify-link.netlify.app)
