@@ -10,7 +10,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 - 👉 [responsive beauty app clone ](https://starlit-beignet-438981.netlify.app/)
 - 👉 [responsive beauty app clone ](https://beautyapp-clone.netlify.app/)
 - 👉 [responsive beauty app clone ](https://responsive-beautyapp.netlify.app/)
-- - 👉 [React beauty project](https://beautyapp12.netlify.app/)
+- 👉 [React beauty project](https://beautyapp12.netlify.app/)
 - 👉 [React beauty project](https://beautyapp121212.netlify.app/)
  - - 👉 [Register-user-information](https://register-user-info.netlify.app/)
 - - 👉 [slider project for laptop ](https://slider121212.netlify.app/)  
