@@ -6,6 +6,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 
 
 #   React js / HTML /CSS  / JS Projects
+fetch data using axios api (https://axios12.netlify.app/)
 - [resposive hotel project clone](https://my-responsive-hotel.netlify.app/)
 - 👉 [responsive beauty app clone ](https://starlit-beignet-438981.netlify.app/)
 - 👉 [responsive beauty app clone ](https://beautyapp-clone.netlify.app/)
@@ -35,6 +36,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
  -  [form-data](https://my-form1212.netlify.app/)
 - [like button](https://like1212.netlify.app/)
 - fetch api data using Axios(https://axios-data.netlify.app/)
+- 
 - 
 
        
