@@ -54,7 +54,7 @@ fetch data using axios api (https://axios12.netlify.app/)
 -  [React Counter App (Pro)](https://your-netlify-link.netlify.app)
 
 
- Replace each `https://your-netlify-link.netlify.app` with your actual Netlify deployed links._
+ 
 
 ## Technologies Used
 
