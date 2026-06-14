@@ -7,7 +7,7 @@ Welcome to my GitHub repository! This is a collection of responsive and creative
 # Live Projects
 
 
-#   React js / HTML /CSS  / JS Projects
+#   React js /HTML /CSS  / JS Projects
 fetch data using axios api (https://axios12.netlify.app/)
 - [resposive hotel project clone](https://my-responsive-hotel.netlify.app/)
 - 👉 [responsive beauty app clone ](https://starlit-beignet-438981.netlify.app/)
